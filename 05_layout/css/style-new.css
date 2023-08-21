@@ -1,0 +1,87 @@
+/* style-index */
+
+.down-link {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+}
+
+.link-img {
+  padding-left: 30px;
+  background-image: url("../img/download.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+/* style-article */
+
+
+::marker {
+  color: #3f2aff;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.block-parag {
+  border-radius: 20px;
+  padding: 50px 95px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: #3f2aff;
+  color: #fff;
+}
+
+.decorate-one {
+  background-image: url("../img/decorate-1.png");
+}
+
+.decorate-two {
+  background-image: url("../img/decorate-2.png");
+}
+
+.list-link {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+}
+
+.head_3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+}
+
+.figcaption {
+  border: 1px solid #b6b6b6;
+  border-top: 0;
+  padding: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}

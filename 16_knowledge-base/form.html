@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/just-validate.min.js"></script>
+    <script defer src="node_modules/inputmask/dist/inputmask.min.js"></script>
+    <script defer src="js/form.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="form-title">Форма:</h2>
+        <form id="form" action="#" class="form-container" autocomplete="off">
+            <fieldset class="form__list">
+              <label class="form__item" for="name">
+                <input type="text" autocomplete="off" data-validate-field="name" class="form__input form-control"  placeholder="Имя*" name="ИФО" id="name">
+              </label>
+              <label class="form__item" for="tel">
+                <input type="tel" autocomplete="off" data-validate-field="tel" class="form__input form-control"  placeholder="Телефон*" name="tel" id="tel">
+              </label>
+              <label class="form__item" for="e-mail">
+                <input type="email" autocomplete="off" data-validate-field="email" class="form__input form-control"  placeholder="E-mail*" name="e-mail" id="email">
+              </label>
+              <button class="form__btn" id="submit-btn">Заказать</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
